@@ -1,3 +1,4 @@
+// src/pages/LoginPage.ts
 import { Page, Locator } from '@playwright/test';
 
 export class LoginPage {
@@ -29,3 +30,4 @@ export class LoginPage {
     return (await this.errorMessage.textContent()) ?? '';
   }
 }
+
